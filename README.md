@@ -40,34 +40,33 @@ Before you begin, ensure you have met the following requirements:
 ## Setup and Installation
 
 1. **Clone the repository:**
-   \`\`\`bash
+   bash
    git clone https://github.com/yourusername/ai-customer-support-chatbot.git
    cd ai-customer-support-chatbot
-   \`\`\`
+   
 
 2. **Install dependencies:**
-   \`\`\`bash
-   npm install
-   \`\`\`
+  bash npm install
+
 
 3. **Set up environment variables:**
 
    Create a `.env.local` file at the root of your project and add the following:
-   \`\`\`bash
+   bash
    OPENAI_API_KEY=your-openai-api-key
    AWS_ACCESS_KEY_ID=your-aws-access-key-id
    AWS_SECRET_ACCESS_KEY=your-aws-secret-access-key
-   \`\`\`
+   
 
 4. **Run the development server:**
-   \`\`\`bash
+   bash
    npm run dev
-   \`\`\`
+
 
    Open [http://localhost:3000](http://localhost:3000) to view the app.
 
 ## Project Structure
-\`\`\`
+
 /ai-customer-support-chatbot
   ├── /components     # UI components
   ├── /pages          # Next.js pages
@@ -76,7 +75,7 @@ Before you begin, ensure you have met the following requirements:
   ├── /public         # Static assets
   ├── package.json    # Node dependencies and scripts
   └── README.md       # Project documentation
-\`\`\`
+
 
 ## Usage
 - Once the application is running, users can interact with the chatbot by asking questions and receiving AI-generated responses in real-time.
