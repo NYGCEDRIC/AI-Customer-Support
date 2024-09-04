@@ -1,0 +1,29 @@
+/* App.css */
+
+/* Styles specific to your App component */
+.chat-container {
+    padding: 20px;
+  }
+  
+  .chat-box {
+    max-height: 400px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+  }
+  
+  .message.user {
+    text-align: right;
+    color: blue;
+  }
+  
+  .message.bot {
+    text-align: left;
+    color: green;
+  }
+  
